@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact {
+    font-size: 20px;
+    background-color: rgb(220, 137, 13);
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 0 20px;
+}
+nav ul {
+    display: flex;
+}
+nav ul {
+    list-style-type: none;
+}
+nav ul li {
+    margin: 10px;
+    padding: 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+button {
+    padding: 5px;
+}
+.SignIn {
+    background-color: aqua;
+}
+.navcontainer {
+    background-color: blue;
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+.logo {
+    width: 5%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+}
+.navbar {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.form li {
+    list-style-type: none;
+}
+.form li a {
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+    position: absolute;
+    top: 0;
+    right: 150px;
+    margin: 10px;
+    padding: 10px;
+    text-transform: capitalize;
+}
+.navlinks {
+    width: 50%;
+    height: 50%;
+    justify-content: space-between 4px;
+    align-items:center ;
+    position: absolute;
+    bottom: 10px;
+    right: -310px;
+    display: flex;
+}
+.navlinks li {
+    list-style-type: none;
+}
+.navlinks li a {
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(245, 241, 241);
+    letter-spacing: 1px;
+    margin-bottom: -150px;
+    word-spacing: 5px;
+    position: relative;
+}
+.navlist {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: green;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    padding: 0 10px;
+    position: relative;
+}
+.navlist ul {
+    display: flex;
+}
+.navlist ul {
+    display: flex;
+    list-style: none;
+}
+.navlist ul li {
+    background-color: rgb(6, 151, 236);
+    float: right;
+    border-right: 1px solid;
+    font-weight: 500;
+    transition: all 0.2s linear;
+}
+.navlist li a {
+    display: flex;
+    font-size: 20px;
+    color: rgb(239, 242, 236);
+     justify-content: space-between;
+     align-items: center;
+    position: relative;
+}
+ 
